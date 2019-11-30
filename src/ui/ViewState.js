@@ -10,7 +10,7 @@ const ViewState = ({viewState}) => (
 );
 
 const mapStateToProps = state => ({
-  viewState: state.books
+  viewState: state.ui
 });
 
 export default connect(mapStateToProps)(ViewState);
